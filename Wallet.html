@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="Transaction.css">
+    <link rel="stylesheet" href="Wallet.css">
+    <script src="jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <div id="mainpage">
+        <div id="logo">
+            <img src="Img/header.png" alt="">
+            <p class="logo">LOGO</p>
+            <div class="under">
+                <ul id="under"></ul>
+
+                <!-- Section component -->
+                <section>
+                    <div id="leftcomp">
+
+                        <!-- WALLET -->
+                        <div id="wallet">
+                            <div class="wallet">
+                                <div id="wallimg">
+                                    <img src="Img/sec1.png" alt="">
+                                </div>
+                                <div class="wall">
+                                    <a href="Wallet.html" target="_self" id="wall">Wallet</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Wolfpacks-->
+                        <div id="wallet1">
+                            <div class="wallet1">
+                                <div id="wallimg">
+                                    <img src="Img/sec2.png" alt="">
+                                </div>
+                                <div class="wall1">
+                                    <a [routerLink]="" id="wall1">Wolfpacks</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- portfolio -->
+                        <div id="wallet2">
+                            <div class="wallet2">
+                                <div id="wallimg2">
+                                    <img src="Img/sec3.png" alt="">
+                                </div>
+                                <div class="wall2">
+                                    <a [routerLink]="" id="wall2">Portfolio</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Transparancy -->
+
+                        <div id="wallet3">
+                            <div class="wallet3">
+                                <div id="wallimg3">
+                                    <img src="Img/sec4.png" alt="">
+                                </div>
+                                <div class="wall3">
+                                    <a [routerLink]="" id="wall3">Transparancy</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Allproperty -->
+                        <div id="wallet4">
+                            <div class="wallet4">
+                                <div id="wallimg4">
+                                    <img src="Img/sec5.png" alt="">
+                                </div>
+                                <div class="wall4">
+                                    <a [routerLink]="" id="wall4">All properties</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="tick">
+                    <img src="Img/tick.png" alt="" class="tick">
+                </div>
+                <div id="popup">
+                    <div id="into">
+                        <a id="hide"> <img src="Img/into.png" alt=""></a>
+                    </div>
+                    <div>
+
+                    </div>
+                    <pre id="text">
+Your account is not yet activated 
+to sell FreedomCoins™. Please 
+specify your PayPal payment address
+to activate your account.
+                    </pre>
+                    <button>Click Here</button>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="center">
+            <header>
+                <div>
+                    <div id="ovr">Overview</div>
+                    <div id="save">Savings</div>
+                    <div id="invst">Investments</div>
+                </div>
+                <div class="red">
+                    <img src="Img/chatred.png" alt="" id="red">
+                </div>
+                <br>
+                <div class="noti">
+                    <img src="Img/noti.png" alt="" id="noti">
+                </div>
+                <div id="inv">
+                    <img src="Img/savemoney.png" alt="" id="mon">
+                </div>
+                <div class="inv">Investor</div>
+                <div id="line"></div>
+                <div class="man">
+                    <img src="Img/business-man.png" alt="" id="man">
+                </div>
+                <div id="rd">Robert Downey</div>
+                <div class="ar">
+                    <img src="Img/arrow2-left@2x.png" alt="" id="ar">
+                </div>
+
+                <ul id="ul"></ul>
+                <ul id="ul1"></ul>
+            </header>
+            <p id="bal">Total Balance</p>
+
+            <div id="in">
+                <img src="Img/i.png" class="in">
+            </div>
+
+            <p class="bal">:$</p>
+
+            <div class="val">
+                <input type="number" value="60" id="val" disabled>
+            </div>
+            <br>
+            <div id="check">
+                <p id="chetxt">Checking</p>
+            </div>
+
+            <div id="coins">
+                <p class="ca">cash</p>
+                <p id="col"><b>:</b>&nbsp;&nbsp;<b style="font-size: x-large;" id="b"> $</b></p>
+
+                <div class="s">
+                    <input type="number" value="20" id="s">
+                </div>
+                <p id="bc">Buy Coins <sup>TM</sup></p>
+
+            </div>
+
+            <div id="buyout">
+                <div id="buy">
+                    <input type="number" min="0" max="100000" class="kevin" id="kevin">
+                </div>
+            </div>
+
+            <div class="uy">
+                <button id="uy" onclick="addone()">Buy</button>
+            </div>
+
+            <!--  -->
+
+            <div id="xerox">
+
+                <p id="bal">Wallet Address</p>
+
+                <div id="sacn">
+                    <img src="Img/scan.png" alt="" class="sacn">
+                </div>
+                <!-- <br> -->
+                <div id="check1">
+                    <p id="chetxt1">Transfers</p>
+                </div>
+
+                <div id="coins">
+                    <p class="ca">Paypal</p>
+                    <p id="col1">Bank account</p>
+                    <p id="bc">Sell Coins <sup>TM</sup></p>
+
+                </div>
+
+                <div id="buyout">
+                    <div id="buy">
+                        <input type="number" min="0" max="100000" class="buy1" id="buy1">
+                        <!-- <div id="top">
+                            <img src="Img/arrow2-right.png" alt="">
+                        </div>
+                        <br>
+                        <div id="bot">
+                            <img src="Img/arrow2-left-1.png" alt="" class="bot">
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="uy1">
+                    <button id="uy1" onclick="minusOne()">Sell</button>
+                </div>
+            </div>
+            <!-- xerox close-->
+
+
+            <div id="fb">
+                <p id="sv">Savings</p>
+                <p id="inv1">Invested</p>
+                <p id="Col">:</p>
+                <p id="del">$</p>
+                <div class="n1">
+                    <input type="number" id="n1" min="0">
+                </div>
+
+                <p id="sv1">Total Payout</p>
+                <div id="in2">
+                    <img src="Img/i.png" alt="" class="in2">
+                </div>
+                <p id="Col1">:</p>
+                <p id="del1">$</p>
+                <div class="n2">
+                    <input type="number" id="n2" min="0">
+                </div>
+            </div>
+
+            <!-- xerox2 -->
+
+            <div id="fb1">
+                <p id="sv">Investments</p>
+                <p id="inv1">Invested</p>
+                <p id="Col">:</p>
+                <p id="del">$</p>
+                <div class="n1">
+                    <input type="number" id="n1" min="0">
+                </div>
+
+                <p id="sv1">Contributed</p>
+                <p id="Col2">:</p>
+                <p id="del2">$</p>
+                <div class="n2">
+                    <input type="number" id="n2" min="0">
+                </div>
+            </div>
+
+            <p id="Rc">Recent Transactions</p>
+
+            <div id="ggg">
+                <table border="solid 2px" id="tab1">
+                    <tr>
+                        <th id="date">Date</th>
+                        <th id="TRS">Transactions</th>
+                        <th id="AM">Amount</th>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- ASIDE -->
+            <!-- ASIDE -->
+            <aside>
+                <p id="t">Avilable Assets</p>
+                <ul class="ul1"></ul>
+                <div id="pic1">
+                    <img src="Img/aside1.png" alt="" id="as1">
+                </div>
+                <p id="co">Potential Covid-19 Cure: Clinical Trial</p>
+                <p id="des">Description:</p>
+                <pre id="ge">
+    A well known, safe, generic medication that has 
+    been used for decades has been shown to….</pre>
+                <ul class="ul2"></ul>
+
+                <!-- Mission -->
+                <div id="pic1">
+                    <img src="Img/aside2.png" alt="" id="as1">
+                </div>
+                <p id="co">Mission </p>
+                <div id="dol">
+                    <img src="Img/dollar-symbol.png" alt="" style="height: 15px; width: 15px;">
+                </div>
+                <p id="des">Description:</p>
+                <pre id="ge">
+    Ownership in Minuteman is decentralized and
+    distributed democratically across its base of…</pre>
+                <ul class="ul2"></ul>
+
+                <!-- Avalon Drive -->
+                <div id="pic1">
+                    <img src="Img/aside3.png" alt="" id="as1">
+                </div>
+                <p id="co">20922 Avalon Drive</p>
+                <p id="des">Address:</p>
+                <pre id="ge">
+    8801 Holly Road 
+    Tullahoma, TN 37388</pre>
+                <ul class="ul2"></ul>
+
+                <!-- Estag -->
+                <div id="pic1">
+                    <img src="Img/aside4.png" alt="" id="as1">
+                </div>
+                <p id="co">17456 Eastgate Drive</p>
+                <p id="des">Address:</p>
+                <pre id="ge">
+    23 North Briarwood Avenue 
+    Williamsburg, VA 23185</pre>
+                <ul class="ul2"></ul>
+            </aside>
+
+            <p id="VM">View More</p>
+            <p id="cop"><small>Copyright <span>&#169;</span></small></p>
+
+            <div id="rej">
+                <img src="Img/rejoultlogo.png">
+            </div>
+
+
+
+        </div>
+        <!--  id center close-->
+
+    </div>
+</body>
+
+
+<script src="Transaction.js"></script>
+
+</html>

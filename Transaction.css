@@ -1,0 +1,262 @@
+#mainpage {
+    background-color: #293879;
+    height: 880px;
+    width: 1250px;
+}
+
+
+/* MainLogo */
+
+#logo {
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+
+/* Logotext */
+
+.logo {
+    color: #FFFFFF;
+    padding-left: 55px;
+    margin-top: -40px;
+    font-size: 20px;
+}
+
+
+/* underline */
+
+#under {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 0.12;
+    width: 135px;
+}
+
+
+/* Section */
+
+#leftcomp {
+    margin-top: 50px;
+}
+
+#wall {
+    color: #2C2C2C;
+    text-decoration: none;
+}
+
+.wall {
+    margin-top: -10px;
+    margin-left: 60px;
+    margin-top: -24px;
+    font-family: sans-serif;
+}
+
+#wallimg {
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+.wallet {
+    height: 40px;
+    width: 260px;
+    border: 1px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #FFFFFF;
+}
+
+.wallet:hover {
+    background-color: #FFFFFF;
+}
+
+
+/* Wolfpacks */
+
+#wallet1 {
+    margin-top: 20px;
+}
+
+#wall1 {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.wall1 {
+    margin-top: -10px;
+    margin-left: 60px;
+    margin-top: -24px;
+    font-family: sans-serif;
+}
+
+#wallimg1 {
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+.wallet1 {
+    height: 40px;
+    width: 200px;
+    border: 1px;
+    border-radius: 10px 0px 0px 10px;
+    /* background-color: #FFFFFF; */
+}
+
+
+/* portfolio */
+
+#wallet2 {
+    margin-top: 20px;
+}
+
+#wall2 {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.wall2 {
+    margin-top: -10px;
+    margin-left: 60px;
+    margin-top: -24px;
+    font-family: sans-serif;
+}
+
+#wallimg2 {
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+.wallet2 {
+    height: 40px;
+    width: 200px;
+    border: 1px;
+    border-radius: 10px 0px 0px 10px;
+    /* background-color: #FFFFFF; */
+}
+
+
+/* Transparancy*/
+
+#wallet3 {
+    margin-top: 20px;
+}
+
+#wall3 {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.wall3 {
+    margin-top: -10px;
+    margin-left: 60px;
+    margin-top: -24px;
+    font-family: sans-serif;
+}
+
+#wallimg3 {
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+.wallet3 {
+    height: 40px;
+    width: 200px;
+    border: 1px;
+    border-radius: 10px 0px 0px 10px;
+    /* background-color: #FFFFFF; */
+}
+
+
+/* All property*/
+
+#wallet4 {
+    margin-top: 20px;
+}
+
+#wall4 {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.wall4 {
+    margin-top: -10px;
+    margin-left: 60px;
+    margin-top: -24px;
+    font-family: sans-serif;
+}
+
+#wallimg4 {
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+.wallet4 {
+    height: 40px;
+    width: 200px;
+    border: 1px;
+    border-radius: 10px 0px 0px 10px;
+    /* background-color: #FFFFFF; */
+}
+
+
+/* Pop ups */
+
+#tick {
+    margin-top: 100px;
+    margin-left: 88px;
+    border: 1px;
+    background-color: #FFE199;
+    position: relative;
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+}
+
+.tick {
+    padding: 9px;
+}
+
+#popup {
+    width: 235px;
+    height: 204px;
+    background-color: #1C2964;
+    margin-top: -20px;
+}
+
+
+/* into */
+
+#into {
+    margin-left: 200px;
+    padding-top: 10px;
+}
+
+#text {
+    color: #FFFFFF;
+    font-size: 10px;
+    word-wrap: wrap;
+    padding: 9px;
+    margin-top: 25px;
+    word-spacing: 1px;
+}
+
+
+/* .text */
+
+button {
+    height: 30px;
+    width: 200px;
+    margin-left: 15px;
+    background-color: #FFB400;
+    color: #FFFFFF;
+}
+
+
+/* Main */
+
+#main {
+    height: 845px;
+    width: 950px;
+    background-color: #FFFFFF;
+    margin-top: -730px;
+    margin-left: 280px;
+    border-radius: 5px;
+}
